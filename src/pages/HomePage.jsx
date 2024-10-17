@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../components/Hero'
 
 
+
 const HomePage = () => {
   return (
     <>
@@ -10,6 +11,8 @@ const HomePage = () => {
 
       {/* Default props */}
       <Hero/>
+      
+      JobListings
 
      
     </>
