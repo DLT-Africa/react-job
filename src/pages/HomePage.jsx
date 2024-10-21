@@ -1,20 +1,19 @@
 import React from 'react'
 import Hero from '../components/Hero'
+import HomeCards from '../components/HomeCards'
+import JobListings from '../components/JobListings'
+import ViewAllJobs from '../components/ViewAllJobs'
+
 
 
 
 const HomePage = () => {
   return (
     <>
-      {/* first props and Destructure */}
-      {/* <Hero title="Become a React Dev." subtitle="Here we are" /> */} 
-
-      {/* Default props */}
-      <Hero/>
-      
-      JobListings
-
-     
+        <Hero/>
+        <HomeCards/>
+        <JobListings/>
+        <ViewAllJobs/>
     </>
   )
 }
